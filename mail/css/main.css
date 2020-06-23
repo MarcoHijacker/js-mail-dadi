@@ -15,3 +15,7 @@ body {
 main {
   padding: 20px;
 }
+/* Box area */
+#checkEmail {
+  margin: 10px 0;
+}
