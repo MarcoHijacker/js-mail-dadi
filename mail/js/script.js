@@ -9,7 +9,7 @@ checkEmail.addEventListener("click", function () {
   var userEmail = document.getElementById('userEmail').value.toLowerCase();
   var emailPresent = false;
 
-  //Ciclo for per verificare 1 a 1 se l'e-mail inserita nell'input è in uno dei posti dell'array database
+  // Ciclo for per verificare 1 a 1 se l'e-mail inserita nell'input è in uno dei posti dell'array database
   for (var i = 0; i < database.length; i++) {
     if (userEmail == database[i]) {
       emailPresent = true;
