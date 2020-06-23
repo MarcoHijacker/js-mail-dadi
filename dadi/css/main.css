@@ -1,0 +1,52 @@
+/* Esercizio Dadi CSS */
+
+/* Generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-image: url("../img/dices-wallpaper.jpg");
+  background-size: cover;
+}
+main {
+  width: 100%;
+  height: 100%;
+  background-color: #09371da8;
+}
+/* Box dati */
+.container {
+  color: white;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #cecece;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title-game {
+  font-size: 24px;
+}
+#start {
+  margin: 10px 0;
+}
+.wonstyle {
+  color: rgb(20, 241, 56);
+  text-shadow: 1px 1px 1px black;
+}
+.drawstyle {
+  color: rgb(210, 164, 62);
+  text-shadow: 1px 1px 1px black;
+}
+.loststyle {
+  color: rgb(244, 83, 83);
+  text-shadow: 1px 1px 1px black;
+}
+#overallWin {
+  margin: 15px 0;
+  text-decoration: underline;
+}
