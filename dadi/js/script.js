@@ -30,7 +30,7 @@ avvio.addEventListener("click", function () {
   for (var i = 0; i < 3; i++) {
     dadoPlayer[i] = Math.floor(Math.random()*6 +1);
     dadoCpu[i] = Math.floor(Math.random()*6 +1);
-  };
+  }
 
   // Confronto uno a uno delle partite
   if (dadoPlayer[0] > dadoCpu[0]) {
@@ -44,7 +44,7 @@ avvio.addEventListener("click", function () {
   } else {
     document.getElementById('matchOne').innerHTML = "Hai pareggiato la prima manche facendo " + dadoPlayer[0] + ".";
     document.getElementById('matchOne').classList.add("drawstyle");
-  };
+  }
 
   if (dadoPlayer[1] > dadoCpu[1]) {
     document.getElementById('matchTwo').innerHTML = "Hai vinto la seconda manche facendo " + dadoPlayer[1] + " contro il " + dadoCpu[1] + " della CPU.";
@@ -57,7 +57,7 @@ avvio.addEventListener("click", function () {
   } else {
     document.getElementById('matchTwo').innerHTML = "Hai pareggiato la seconda manche facendo " + dadoPlayer[1] + ".";
     document.getElementById('matchTwo').classList.add("drawstyle");
-  };
+  }
 
   if (dadoPlayer[2] > dadoCpu[2]) {
     document.getElementById('matchThree').innerHTML = "Hai vinto la terza manche facendo " + dadoPlayer[2] + " contro il " + dadoCpu[2] + " della CPU.";
@@ -70,7 +70,7 @@ avvio.addEventListener("click", function () {
   } else {
     document.getElementById('matchThree').innerHTML = "Hai pareggiato la terza manche facendo " + dadoPlayer[2] + ".";
     document.getElementById('matchThree').classList.add("drawstyle");
-  };
+  }
 
   // Confronto l'indicatore partite vinte
   if (player > cpu) {
